@@ -1,0 +1,9 @@
+{
+  "id": "leef-opendyslexic",
+  "name": "OpenDyslexic Font",
+  "description": "Overrides all fonts in the browser UI and on all websites to use the OpenDyslexic font for easier reading.",
+  "version": "1.0.0",
+  "author": "Leef Browser",
+  "main": "plugin.js",
+  "min_leef_version": "1.0.0"
+}
