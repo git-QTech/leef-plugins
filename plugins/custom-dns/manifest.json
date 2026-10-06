@@ -3,7 +3,7 @@
   "name": "Custom DNS Resolver",
   "description": "Configure Leef to use a custom DNS-over-HTTPS (DoH) server instead of Cloudflare (1.1.1.1).",
   "version": "1.0.0",
-  "author": "Leef Community",
+  "author": "Zexerif",
   "main": "plugin.js",
   "config": [
     {
