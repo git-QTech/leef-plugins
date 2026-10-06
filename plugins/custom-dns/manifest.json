@@ -1,0 +1,23 @@
+{
+  "id": "custom-dns",
+  "name": "Custom DNS Resolver",
+  "description": "Configure Leef to use a custom DNS-over-HTTPS (DoH) server instead of Cloudflare (1.1.1.1).",
+  "version": "1.0.0",
+  "author": "Leef Community",
+  "main": "plugin.js",
+  "config": [
+    {
+      "id": "dnsServer",
+      "label": "DNS over HTTPS Server",
+      "type": "select",
+      "options": [
+        { "label": "Cloudflare (1.1.1.1)", "value": "https://cloudflare-dns.com/dns-query" },
+        { "label": "Google (8.8.8.8)", "value": "https://dns.google/dns-query" },
+        { "label": "Quad9 (9.9.9.9)", "value": "https://dns.quad9.net/dns-query" },
+        { "label": "AdGuard DNS (Family)", "value": "https://dns-family.adguard.com/dns-query" },
+        { "label": "OpenDNS", "value": "https://doh.opendns.com/dns-query" }
+      ],
+      "default": "https://cloudflare-dns.com/dns-query"
+    }
+  ]
+}
